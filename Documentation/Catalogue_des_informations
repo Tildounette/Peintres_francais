@@ -14,7 +14,7 @@
 - occupation
 
 
-### Organisation
+### Lieu de formation
 - nom
 - type
 - siège
@@ -26,9 +26,15 @@
 - type
 - coordonnées géographiques
 
+
+### Mouvement Artistique 
+- nom 
+- définition
+- date 
+
+
 ### Oeuvre
 - Sujet de la peinture
-- Mouvement artistique 
 - Quel support 
 - Technique utilisées
 
@@ -41,6 +47,6 @@ N.B. Il n'y a ici que quelques exemples, généralement le domaine des relations
 
 - personne est née dans lieu
 - personne est élève de personne
-- personne est membre de organisation
-- oeuvre a pour auteur personne
-- oeuvre a lieu de publication  
+- personne a étudié dans lieu de formation
+- personne est membre mouvement artistique 
+- oeuvre a pour peintre personne  
