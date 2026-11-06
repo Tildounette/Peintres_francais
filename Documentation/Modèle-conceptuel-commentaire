@@ -1,32 +1,33 @@
-##Personn
+## Classe Person 
+Tout être humain 
+# Propriété 
+nom, gender, date de mort, definition, notes
+# Relation : 
 
-Tout être humain.
+## Classe Birth
+Année de naissance d'une personne
+# Propriété 
+date, notes
+# Relation 
+Une Birth peut avoir une ou plusieurs person, une person ne peut avoir que une année de naissance, une person ne peut avoir qu'une mère et qu'un seul père
 
-Propriétés
-
-Nom standard, notice, le genre, éventuellement la date de mort. Il s'agit d'une classe objet (persistent item)
-Occupation
-
-Un métier ou tout autre type d'occupation Il s'agit d'une classe objet (persistent item)
-Propriétés
-
-Nom standard, notice
-
-Relations
-
-##Pursuit
-
+## Classe Pursuit 
 Le fait d'avoir telle occupation ou activité durant telle période Il s'agit d'une classe temporalité (temporal entity)
-
-Exemple: " " (Wikipedia)
-Relations
-
+# Propriété
+begin year, end year, definition, notes
+# Relation 
 Une Pursuit peut comprend une et une seule personne, une et une seule occupation (ces deux relations sont nécessaires) et éventuellement on peut associer une (et une seule) organisation auprès de laquelle l'activité est exercée.
 
-Si plusieurs organisation sont concernées par une activité, plusieurs individus de la classe Pursuit seront créées.
-Tag
+## Classe Occupation 
+Le métier occupé
+# Propriété 
+name, definition, notes 
+# Relation 
+Une personne peut avoir un ou plusieurs métiers, mais peut comprendre un et une seule pursuit. Une relation réfléxive de spécialisation, termes plus génériques associés à des termes plus précis. Par exemple 'miniaturiste' ou 'portraitiste' spécialise le terme de 'peintre'. 
 
-Un mot clé qui introduit un classement de recherche, généralement lié au questionnement.
-Relations
-
-Relation reflexive (d'un classe vers elle même) qui créer une taxonomie (i.e. une hiérarchie) de mots clés, les plus généraux étant les parents ou ancêtres des plus spécifiques.
+## Classe Art Mouvement 
+Le fait d'appartenir à un mouvement artistique 
+# Propriété 
+name, definition, date, notes
+# Relation
+Un art mouvement peut comprendre une et plusieurs person, et une person peut avoir entre 0 et plusieurs art mouvement 
