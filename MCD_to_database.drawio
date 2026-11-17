@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kl1bWv7PggBbEMIrhpOO" name="Page-1">
-        <mxGraphModel dx="1029" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1172" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -209,12 +209,12 @@
                 </mxCell>
                 <mxCell id="3ueJ7cUy7mjBkN_rRk6B-65" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-63" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
                     <mxGeometry relative="1" x="-1" as="geometry">
-                        <mxPoint x="-20" as="offset"/>
+                        <mxPoint x="-20" y="5" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="3ueJ7cUy7mjBkN_rRk6B-66" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-63" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" value="0..n" vertex="1">
                     <mxGeometry relative="1" x="1" as="geometry">
-                        <mxPoint x="40" y="6" as="offset"/>
+                        <mxPoint x="25" y="20" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="3ueJ7cUy7mjBkN_rRk6B-71" parent="1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Persons&#39; Relationship" vertex="1">
@@ -287,7 +287,7 @@
                 </mxCell>
                 <mxCell id="3ueJ7cUy7mjBkN_rRk6B-94" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
                     <mxGeometry relative="1" x="0.8885" y="-1" as="geometry">
-                        <mxPoint x="-26" y="31" as="offset"/>
+                        <mxPoint x="-19" y="58" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="3ueJ7cUy7mjBkN_rRk6B-95" parent="1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Organisation" vertex="1">
@@ -427,7 +427,7 @@
                         <mxPoint x="90" y="74" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3ueJ7cUy7mjBkN_rRk6B-133" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-130" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0,&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;n&lt;/span&gt;" vertex="1">
+                <mxCell id="3ueJ7cUy7mjBkN_rRk6B-133" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-130" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;n&lt;/span&gt;" vertex="1">
                     <mxGeometry relative="1" x="-0.8173" y="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -459,7 +459,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3ueJ7cUy7mjBkN_rRk6B-140" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0,n" vertex="1">
+                <mxCell id="3ueJ7cUy7mjBkN_rRk6B-140" connectable="0" parent="3ueJ7cUy7mjBkN_rRk6B-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..n" vertex="1">
                     <mxGeometry relative="1" x="-0.7623" as="geometry">
                         <mxPoint x="-1" as="offset"/>
                     </mxGeometry>
@@ -473,7 +473,7 @@
                 </mxCell>
                 <mxCell id="rgwASvdu94HYephvsX2J-7" connectable="0" parent="rgwASvdu94HYephvsX2J-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;font&gt;est membre de&lt;/font&gt;&lt;/span&gt;" vertex="1">
                     <mxGeometry relative="1" x="0.1135" y="1" as="geometry">
-                        <mxPoint x="-24" y="-9" as="offset"/>
+                        <mxPoint x="-24" y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="rgwASvdu94HYephvsX2J-8" parent="1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" value="Art Mouvement" vertex="1">
