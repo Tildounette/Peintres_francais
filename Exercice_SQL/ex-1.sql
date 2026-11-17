@@ -1,5 +1,5 @@
-SELECT *
-FROM tracks t ;
-	
-
-
+SELECT
+  EmployeeId,
+  CONCAT_WS(' ', FirstName,LastName) FullName
+FROM
+  employees;
